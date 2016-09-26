@@ -47,7 +47,7 @@
                   background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/07/Computer-Science-Desktop-Wallpaper.jpg");
 
                   /* Full height */
-                  height: 500px;
+                  height: 100px;
                   padding-top: none;
 
                   /* Create the parallax scrolling effect */
@@ -91,7 +91,7 @@
 
 
   /*-----------------------------| HOMEPAGE |-------------------------------*/
-  
+
 
   .jumbotron{
     background-color: white;
@@ -108,8 +108,8 @@
   }
 
   .jumbotron img{
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
   }
 
 
