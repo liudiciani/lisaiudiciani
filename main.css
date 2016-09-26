@@ -66,10 +66,10 @@
 
               .parallax2 {
                   /* The image used */
-                  background-image: url("http://imgur.com/QFaEXoQ");
+                  background-image: url("http://i.imgur.com/QFaEXoQ.png");
 
                   /* Full height */
-                  height: 350px;
+                  height: 200px;
                   padding-left: 0px !important;
                   padding-right: 0px !important;
                   padding-top: 0px;
