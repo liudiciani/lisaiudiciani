@@ -74,9 +74,12 @@
                 /* Working method */
   background:
     /* top, transparent red, faked with gradient */
-
+    linear-gradient(
+      rgba(215, 45, 49, 0.7),
+    rgba(215, 45, 49, 0.7)
+    ),
     /* bottom, image */
-    url("http://i.imgur.com/KeS7zzH.png");
+    url("http://i.imgur.com/dl6uXpj.png");
 
     /* Full height */
     height: 200px;
