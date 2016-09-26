@@ -13,19 +13,42 @@
 
   <style>
 
-        .navbar {
-        margin-bottom: 0;
-        border-radius: 0;
-        border-bottom: none;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        font-size: 11px;
-      }
+  /*@media (min-width: 768px) {*/
+    .navbar-default {
+        background-color: transparent;
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+        border: 0;
+    }
+    .navbar-default .navbar-brand{
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
 
-      .navbar a:hover{
-          letter-spacing: 8px;
-      }
-      
+  .navbar li a, .navbar .navbar-brand{
+  color: #fff !important;
+}
+.navbar-brand{
+  letter-spacing: normal;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a{
+  color: #80b3ff !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+ border-color: transparent;
+ color: #fff !important;
+}
+
+
+
+
       .content{
         padding: 150px;
         padding-top: 50px;
@@ -360,26 +383,30 @@
 
 <body>
 
-  <nav class="navbar navbar-fixed-top navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav active">
-       <li><a href="#/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role = "navigation">
+     <div class ="container-fluid">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#"><strong>Lisa Iudiciani</strong></a>
+       </div>
+       <div class="collapse navbar-collapse" id="myNavbar">
+         <ul class="nav navbar-nav">
+           <!-- <li><a href"" id='blank'></a></li> -->
+           <li><a href="#/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
        <li><a href="#experience"><span class="glyphicon glyphicon-briefcase"></span> Experience</a></li>
        <li><a href="#education"><span class="glyphicon glyphicon-education"></span> Education</a></li>
        <li><a href="#projects"><span class="glyphicon glyphicon-cog"></span> Projects</a></li>
        <li><a href="#contact"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+           <!-- <li><a href="#personal">PERSONAL</a></li> -->
+
+         </ul>
+     </div> <!-- end class -->
+   </div>
+   </nav>
 
   <!--............................................................................................................................................-->
   <!--...................................................................... ABOUT ME ............................................................-->
