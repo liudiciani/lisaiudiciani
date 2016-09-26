@@ -27,14 +27,11 @@
             }
 
 
-            .pageContent{
-              padding-left: 200px;
-              padding-right: 200px;
-            }
+            
 
 
                 .content{
-                  padding: 150px;
+                  padding: 200px;
                   padding-top: 50px;
                 }
 
@@ -76,7 +73,7 @@
                 /* Working method */
   background:
     /* top, transparent red, faked with gradient */
-    
+
     /* bottom, image */
     url("http://i.imgur.com/KeS7zzH.png");
 
