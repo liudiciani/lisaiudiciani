@@ -108,6 +108,13 @@
   }
 
   .sectionimg{
+    background:
+      /* top, transparent red, faked with gradient */
+      linear-gradient(
+        rgba(0,0,0, 0.7),
+      rgba(0,0,0, 0.7)
+      )
+
     padding-top: 50px;
     padding-left: 40px;
     text-align: left;
