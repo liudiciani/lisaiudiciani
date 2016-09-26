@@ -16,9 +16,20 @@
 
         /*---------------------------------| BODY |-------------------------------*/
 
-            body{
+            body1{
                 padding-left: 100px;
                 padding-right: 100px;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                text-align: center;
+                width: 100%;
+                  font-size: 13px;
+
+            }
+
+            body2{
+                padding-left: 0px;
+                padding-right: 0px;
                 text-transform: uppercase;
                 letter-spacing: 4px;
                 text-align: center;
