@@ -99,7 +99,7 @@
 
   .jumbotron{
     background-color: white;
-    padding-top: 400px;
+    padding-top: -150px;
     padding-bottom: 0px;
     padding-left: 200px;
     padding-right: 200px;
@@ -110,9 +110,6 @@
   .jumbotron h1{
     font-size: 60px;
   }
-
-
-
 
   .jumbotron img{
     width: 40%;
