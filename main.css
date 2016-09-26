@@ -57,6 +57,32 @@
                   background-size: cover;
               }
 
+
+              .headerpic{
+
+                    width: 80%;
+                    height: 80%;
+              }
+
+              .jumbotron{
+                background-color: white;
+                padding-top: 300px;
+                padding-bottom: 0px;
+                padding-left: 200px;
+                padding-right: 200px;
+
+                text-transform: none;
+                letter-spacing: 1px;
+              }
+              .jumbotron h1{
+                font-size: 60px;
+              }
+
+              .jumbotron img{
+                width: 40%;
+                height: 40%;
+              }
+
       .row.no-gutter {
     margin-left: 0;
     margin-right: 0;
@@ -90,31 +116,7 @@
 
 
 
-  /*-----------------------------| HOMEPAGE |-------------------------------*/
-  .headerpic{
 
-        width: 80%;
-        height: 80%;
-  }
-
-  .jumbotron{
-    background-color: white;
-    padding-top: -400px;
-    padding-bottom: 0px;
-    padding-left: 200px;
-    padding-right: 200px;
-
-    text-transform: none;
-    letter-spacing: 1px;
-  }
-  .jumbotron h1{
-    font-size: 60px;
-  }
-
-  .jumbotron img{
-    width: 40%;
-    height: 40%;
-  }
 
 
 
