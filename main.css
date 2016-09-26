@@ -52,8 +52,8 @@
   background:
     /* top, transparent red, faked with gradient */
     linear-gradient(
-      rgba(255, 0, 0, 0.45),
-      rgba(255, 0, 0, 0.45)
+      rgba(153, 102, 255, 0.45),
+      rgba(153, 102, 255, 0.45)
     ),
     /* bottom, image */
     url("https://a2ua.com/gears/gears-003.jpg");
