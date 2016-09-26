@@ -197,13 +197,13 @@
     overflow: hidden;
     top: 0;
     left: 0;
-    background-color: rgba(75,75,75,0.7);
+    background-color: rgba(170, 213, 213,0.7);
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
   }
 
   .hovereffect:hover .overlay {
-    background-color: rgba(48, 152, 157, 0.4);
+    background-color: rgba(170, 213, 213, 0.4);
   }
 
 
