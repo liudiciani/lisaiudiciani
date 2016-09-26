@@ -48,6 +48,7 @@
 
                   /* Full height */
                   height: 500px;
+                  padding-top: none;
 
                   /* Create the parallax scrolling effect */
                   background-attachment: fixed;
