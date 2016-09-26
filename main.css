@@ -50,8 +50,8 @@
   background:
     /* top, transparent red, faked with gradient */
     linear-gradient(
-      rgba(55, 208, 187, 0.7),
-    rgba(55, 208, 187, 0.7)
+      rgba(215, 45, 49, 0.7),
+    rgba(215, 45, 49, 0.7)
     ),
     /* bottom, image */
     url("https://a2ua.com/gears/gears-003.jpg");
@@ -203,7 +203,7 @@
   }
 
   .hovereffect:hover .overlay {
-    background-color: rgba(55, 208, 187, 0.4);
+    background-color: rgba(215, 45, 49, 0.4);
   }
 
 
