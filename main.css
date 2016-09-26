@@ -49,7 +49,9 @@
               .parallax {
                   /* The image used */
                   background-image: url("https://a2ua.com/gears/gears-003.jpg");
-
+                  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5));
                   /* Full height */
                   height: 350px;
                   padding-left: 0px !important;
