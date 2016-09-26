@@ -48,7 +48,6 @@
 
                   /* Full height */
                   height: 500px;
-                  padding-top: none;
 
                   /* Create the parallax scrolling effect */
                   background-attachment: fixed;
@@ -65,8 +64,6 @@
               }
 
               .jumbotron{
-                background-color: white;
-                padding-top: 300px;
                 padding-bottom: 0px;
                 padding-left: 200px;
                 padding-right: 200px;
