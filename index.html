@@ -26,9 +26,21 @@
           letter-spacing: 8px;
       }
 
-      .navbar li a:hover, .navbar li.active a{
-        color: #80b3ff !important;
-        background-color: #fff !important;
+      .navbar {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+    border: 0;
+}
+.navbar{
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+.navbar >.active>a {
+    border-radius: 3px;
 }
 
       .content{
