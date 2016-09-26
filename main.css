@@ -90,7 +90,7 @@
 
 
 
-
+  /*-----------------------------| HOMEPAGE |-------------------------------*/
   .headerpic{
 
         width: 80%;
@@ -99,7 +99,7 @@
 
   .jumbotron{
     background-color: white;
-    padding-top: 300px;
+    padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 200px;
     padding-right: 200px;
